@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy\\BookBuddy.csproj": {}
+    "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy\\BookBuddy.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy\\BookBuddy.csproj": {
+    "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy\\BookBuddy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy\\BookBuddy.csproj",
+        "projectUniqueName": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy\\BookBuddy.csproj",
         "projectName": "BookBuddy",
-        "projectPath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy\\BookBuddy.csproj",
+        "projectPath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy\\BookBuddy.csproj",
         "packagesPath": "C:\\Users\\maxjo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy\\obj\\",
+        "outputPath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxjo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,6 +51,12 @@
               "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.5, )"
             },
