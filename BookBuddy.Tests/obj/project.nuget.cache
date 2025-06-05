@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S4T9IxqkQ7w=",
+  "dgSpecHash": "Kh+u/x0BJx4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddy.Tests\\BookBuddy.Tests.csproj",
+  "projectFilePath": "C:\\Users\\maxjo\\Desktop\\CsharpProjects\\BookBuddyMain\\BookBuddy.Tests\\BookBuddy.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maxjo\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\maxjo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

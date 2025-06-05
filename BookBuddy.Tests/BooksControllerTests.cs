@@ -72,7 +72,7 @@ namespace BookBuddy.Tests
 
             Assert.Equal(book.Id, returnBook.Id);
         }
--
+
         [Fact]
         public async Task DeleteBook_ReturnsNoContent()
         {
