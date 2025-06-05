@@ -25,6 +25,43 @@ namespace BookBuddy.Data
                 .HasOne(bbt => bbt.BookTag)
                 .WithMany(bt => bt.BookBookTags)
                 .HasForeignKey(bbt => bbt.TagId);
+
+            modelBuilder.Entity<User>().HasData(new User
+            {
+                Id = 1,
+                Name = "Alice Reader",
+                Email = "alice@example.com"
+            });
+
+            modelBuilder.Entity<Book>().HasData(new Book
+            {
+                Id = -1,
+                Title = "The Adventure Begins",
+                Author = "John Storyteller",
+                Genre = "Adventure"
+            });
+
+            modelBuilder.Entity<BookTag>().HasData(new BookTag
+            {
+                Id = -1,
+                Name = "Fantasy"
+            });
+
+            modelBuilder.Entity<Loan>().HasData(new Loan
+            {
+                Id = 1,
+                UserId = 1,
+                BookId = -1,
+                Status = "borrowed",
+                DateBorrowed = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc)
+            });
+
+            modelBuilder.Entity<BookBookTag>().HasData(new BookBookTag
+            {
+                Id = -1, 
+                BookId = -1,
+                TagId = -1
+            });
         }
     }
 }
