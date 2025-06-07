@@ -35,7 +35,7 @@ BookBuddy.Tests/ # Unit test project
 
 ## 🌐 Deployed API
 
-🔗 [BookBuddy](https://github.com/MaxJones129/BookBuddy)
+🔗 [BookBuddy](https://www.postman.com/maxjones129/workspace/bookbuddy/request/44240655-c977c7f4-2913-489f-ae45-bf8ac87c38d0?action=share&creator=44240655&ctx=documentation)
 
 ---
 
